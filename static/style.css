@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    overflow: hidden; /* Hide scrollbars */
+    background-color: rgb(15, 15, 15);
+    color: white;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Align horizontal */
+    align-items: center; /* Align vertical */
+    height: 95vh;
+}
+
+.info_filler{
+    font-family: 'Bebas Neue';
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size:xx-large;
+}
+
+.logo_img{
+    width: 5em;
+}
